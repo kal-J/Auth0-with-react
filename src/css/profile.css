@@ -1,0 +1,31 @@
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    max-width: 100px;
+    max-height: 100px;
+    border: 0px solid;
+    border-radius: 50px;
+}
+.list-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.list{
+    margin: 1em;
+}
+div>span{
+    margin: 0.2em;
+}
+.property{
+    color: #fff;
+    background-color: #f0582a;
+    border-radius: 8px;
+    padding: 0.2em;
+}
